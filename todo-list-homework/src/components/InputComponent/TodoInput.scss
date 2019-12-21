@@ -1,0 +1,39 @@
+$blue: #0466FF;
+$light-blue: #0095ff;
+$bright-blue: #66bfff;
+
+.input-add-todo {
+  width: 300px;
+  height: 20px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border: 1px solid gray;
+  padding-left: 10px;
+  outline: none;
+}
+
+.input-add-todo:focus {
+  border: 1px solid $bright-blue;
+}
+
+.button-add {
+  height: 24px;
+  width: 80px;
+  margin-left: -2px;
+  background: $light-blue;
+  border: none;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  color: white;
+  outline: none;
+
+  &:hover {
+    background: $blue;
+    cursor: pointer;
+  }
+}
+
+.button-add:active {
+  border: 1px solid white;
+}
+

@@ -1,0 +1,63 @@
+$light-blue: #0095ff;
+$bright-blue: #66bfff;
+$light-grey: #e1e1e1;
+$red: #ff232a;
+$green: #31ff39;
+
+.todoItem {
+  background: $light-grey;
+  width: 378px;
+  padding: 10px;
+  position: relative;
+  left: 35%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.btn {
+  height: 30px;
+  width: 60px;
+  margin-left: 5px;
+  border: none;
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.btn:active{
+  border: 1px solid $light-grey;
+}
+
+.editTodo{
+  background: $light-blue;
+}
+
+.removeTodo{
+  background: $red;
+}
+
+.saveTodo{
+  background: $green;
+}
+
+.save{
+  justify-content: center;
+  text-align: center;
+  .text-input {
+    font-size: 20px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 28px;
+  }
+  .text-input:focus{
+    border:1px solid $bright-blue;
+  }
+}

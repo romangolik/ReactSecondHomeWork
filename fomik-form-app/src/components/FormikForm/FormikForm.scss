@@ -1,0 +1,67 @@
+$bright-blue: #66bfff;
+$blue: #0466FF;
+$light-blue: #0095ff;
+$grey: #737373;
+
+.formWrapper{
+  background: #f6f6f6;
+  height: 430px;
+  width: 350px;
+  margin: 0 auto;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+.form-control {
+  width: 90%;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid $grey;
+  padding-left: 10px;
+  outline: none;
+}
+
+.form-control:focus{
+  border: 1px solid $bright-blue;
+}
+
+.form-group {
+  margin-left: 20px;
+  text-align: left;
+  height: 55px;
+}
+
+.text {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.error {
+  color: red;
+  margin-top: 0;
+  font-size: 10px;
+}
+input.error{
+  border-color: red;
+  font-size: 13px;
+}
+
+.submit{
+  margin-top: 20px;
+  width: 120px;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  background: $light-blue;
+  color: white;
+  font-size: 17px;
+  outline: none;
+}
+
+.submit:active{
+  border: 1px solid #f6f6f6;
+}
+
+.submit:hover{
+  background: $blue;
+}
